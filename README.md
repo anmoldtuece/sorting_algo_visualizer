@@ -15,12 +15,6 @@ A sorting visualizer built using HTML, CSS, and JavaScript. It allows users to v
 - Interactive UI for adjusting array size and sorting speed.
 - Step-by-step visualization of each sorting algorithm.
 
-## Screenshots
-- **Main Page with Sorting Algorithms**
-- **Real-time Sorting Visualization**
-
-## Installation Guide
-
 ### Prerequisites
 Make sure you have the following installed:
 - A modern web browser (e.g., Chrome, Firefox, etc.)
