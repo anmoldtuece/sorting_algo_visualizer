@@ -22,5 +22,5 @@ Make sure you have the following installed:
 ### Clone the Repository
 To get started, clone the repository:
 ```bash
-git clone https://github.com/your-username/sorting-visualizer.git
-cd sorting-visualizer
+git clone https://github.com/anmoldtuece/sorting_algo_visualizer.git
+cd sorting_algo_visualizer
