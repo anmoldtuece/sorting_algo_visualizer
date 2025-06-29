@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgb(252, 252, 25);
-  --secondary-color: rgb(247, 240, 21);
+  --primary-color: hwb(0 10% 1% / 0);
+  --secondary-color: rgb(255, 255, 255);
 }
 * {
   /* Below is the standard CSS code one should add to get rid of default margins and padding which most of tge HTML elements have */
@@ -53,9 +53,9 @@ body {
   transition: 0.3s;
   background-color: #0abd40;
 }
-.navbar a:hover {
+/* .navbar a:hover {
   background-color: transparent;
-}
+} */
 .navbar #menu {
   width: fit-content;
   outline: none;
@@ -138,4 +138,34 @@ body {
   font-weight: bold;
   color: #5252ff;
   font-size: 20px;
+}
+
+/* Info Panel CSS */
+.info-panel {
+  background: #fff;         /* White background */
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  font-size: 1rem;
+  color: #000;              /* Black text */
+  text-align: left;
+}
+.info-panel h3 {
+  margin-bottom: 1rem;
+}
+.info-panel a {
+  color: #0074d9;
+  text-decoration: underline;
+}
+#algo-code {
+  background: #fff;         /* White background */
+  color: #000;              /* Black text */
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Fira Mono', 'Consolas', 'Menlo', monospace;
+  font-size: 1em;
+  margin-top: 0.5em;
 }
