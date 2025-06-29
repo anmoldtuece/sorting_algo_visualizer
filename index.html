@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
 
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <link rel="stylesheet" href="style.css" />
   <title>Sorting visualizer</title>
 </head>
@@ -62,11 +61,18 @@
   <div class="center">
     <div class="array"></div>
   </div>
+  <div class="info-panel">
+    <h3 id="algo-title">Algorithm Info</h3>
+    <p><strong>Time Complexity:</strong> <span id="time-complexity">-</span></p>
+    <p><strong>Space Complexity:</strong> <span id="space-complexity">-</span></p>
+    <p><strong>Code:</strong></p>
+    <pre id="algo-code" style="background:#fffefe;color:#000000;padding:10px;border-radius:6px;overflow-x:auto;">Select an algorithm to view code.</pre>
+    <p>
+      <a id="wiki-link" href="#" target="_blank">Wikipedia</a>
+    </p>
+  </div>
   <footer class="footer">
     <p>
-      <a href="linkedin.com/in/anmol-pandey-12289b244/" target="_blank" class="link">
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-      </a>
       <a href="https://github.com/anmoldtuece" target="_blank" class="link">
         <i class="fa fa-github" aria-hidden="true"></i>
       </a>
